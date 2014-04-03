@@ -14,7 +14,7 @@ jQuery 1.7
 
 
 
-EXAMPLES
+USAGE
 ===
 
 $("input[placeholder]").placeholderfb();
