@@ -1,28 +1,7 @@
 /* 
 ======================================= 
-
 [ jquery.placeholderfb.js ]
-
-This jQuery plugin provides a Javascript fallback for the "placeholder" attribute in HTML5 in browsers that
-do not recognize the attribute. 
-
-VERSION:
-	0.2
-
-AUTHOR:
-	Jeremy Paris 	(c)2012-2013
-
-REQUIRED:
-	-jQuery v1.7+
-
-Notes:
-	-HTML code for each element should define the "placeholder" attribute
-	-If the "placeholder" attribute is altered by other javascript, you will need to reinstantiate this plugin on the element
-	-Utilizes jQuery's on() and off() functions to handle event listeners
-	-Pass in a default color to have your placeholder text show up in (default: gray)
-
 ======================================= 
-
 
 Leading semicolon here just in case any other plugins did not close or concatenate correctly.
 Idea for this stolen from jQuery Plugin Boilerpate <http://jqueryboilerplate.com/>
@@ -32,8 +11,6 @@ Idea for this stolen from jQuery Plugin Boilerpate <http://jqueryboilerplate.com
 	/*
 	//-- PLUGIN FUNCTION
 	======================================= 
-	Now you shall witness the firepower of this fully armed and operational jQuery plugin.
-	Fire at will, Commander.
 	*/
 	$.fn.placeholderfb = function( options ) {
 
@@ -170,5 +147,5 @@ Idea for this stolen from jQuery Plugin Boilerpate <http://jqueryboilerplate.com
 
 
 
-Many Bothans died to bring us this documantation. 
+
 */
