@@ -1,19 +1,18 @@
 Placeholder Fallback: A jQuery Plugin
 
-This jQuery plugin provides a Javascript fallback for the "placeholder" attribute in HTML5 in browsers that
-do not recognize the attribute. 
+This jQuery plugin provides a Javascript fallback for the "placeholder" attribute in HTML5 in browsers that do not recognize the attribute. 
 
 VERSION:
-	0.2
+0.2
 
 AUTHOR:
-	Jeremy Paris 	(c)2012
+Jeremy Paris 	(c)2012
 
 REQUIRED:
-	-jQuery v1.7+
+-jQuery v1.7+
 
 Notes:
-	-HTML code for each element should define the "placeholder" attribute
-	-If the "placeholder" attribute is altered by other javascript, you will need to reinstantiate this plugin on the element
-	-Utilizes jQuery's on() and off() functions to handle event listeners
-	-Pass in a default color to have your placeholder text show up in (default: gray)
+-HTML code for each element should define the "placeholder" attribute
+-If the "placeholder" attribute is altered by other javascript, you will need to reinstantiate this plugin on the element
+-Utilizes jQuery's on() and off() functions to handle event listeners
+-Pass in a default color to have your placeholder text show up in (default: gray)
